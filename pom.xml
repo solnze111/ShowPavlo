@@ -22,14 +22,14 @@
 	</dependencies>
 	
 <distributionManagement>
+    <repository>
+        <id>mynexus</id>
+        <url>http://localhost:8081/repository/maven-releases/</url>
+    </repository>
     <snapshotRepository>
         <id>mynexus-snapshots</id>
         <url>http://localhost:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
-    <repository>
-        <id>mynexus-releases</id>
-        <url>http://localhost:8081/repository/maven-releases/</url>
-    </repository>
 </distributionManagement>
 
 	<scm>
