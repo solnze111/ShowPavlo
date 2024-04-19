@@ -1,8 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ee</groupId>
 	<artifactId>ShowPavlo</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
@@ -20,23 +22,12 @@
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
-	
-	<distributionManagement>
-		<snapshotRepository>
-			<id>mynexus</id>
-			<url>http://localhost:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
-		<repository>
-			<id> mynexus</id>
-			<url>http://localhost:8081/repository/maven-releases/</url>
-		</repository>
-	</distributionManagement>
+
 
 	<scm>
 		<connection>scm:git:git@github.com:solnze111/ShowPavlo.git </connection>
 		<developerConnection>scm:git:git@github.com:solnze111/ShowPavlo.git </developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+	</scm>
 
 	<build>
 		<resources>
