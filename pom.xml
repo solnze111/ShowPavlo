@@ -21,16 +21,16 @@
 		</dependency>
 	</dependencies>
 	
-	<distributionManagement>
-		<snapshotRepository>
-			<id>mynexus</id>
-			<url>http://localhost:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
-		<repository>
-			<id> mynexus</id>
-			<url>http://localhost:8081/repository/maven-releases/</url>
-		</repository>
-	</distributionManagement>
+<distributionManagement>
+    <snapshotRepository>
+        <id>mynexus-snapshots</id>
+        <url>http://localhost:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+        <id>mynexus-releases</id>
+        <url>http://localhost:8081/repository/maven-releases/</url>
+    </repository>
+</distributionManagement>
 
 	<scm>
 		<connection>scm:git:git@github.com:solnze111/ShowPavlo.git </connection>
